@@ -1,31 +1,35 @@
 {
-  "name": "@devsnowflake/discord-bot-list-website",
-  "version": "1.0.0",
-  "description": "Website for custom Discord Bot List",
-  "main": "index.js",
-  "scripts": {
-    "test": "next dev"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DevSnowflake/dbl.git"
-  },
-  "author": "Snowflake Studio",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/DevSnowflake/dbl/issues"
-  },
-  "homepage": "https://github.com/DevSnowflake/dbl#readme",
-  "dependencies": {
-    "next": "^10.2.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  },
-  "devDependencies": {
-    "@netlify/plugin-nextjs": "^3.2.2",
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.14",
-    "prettier": "^2.2.1",
-    "tailwindcss": "^2.1.2"
-  }
+    "name": "@devsnowflake/discord-bot-list-website",
+    "version": "1.0.0",
+    "description": "Website for custom Discord Bot List",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "export": "next export",
+        "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,yaml,yml}\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DevSnowflake/dbl.git"
+    },
+    "author": "Snowflake Studio",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/DevSnowflake/dbl/issues"
+    },
+    "homepage": "https://github.com/DevSnowflake/dbl#readme",
+    "dependencies": {
+        "next": "^10.2.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+        "@netlify/plugin-nextjs": "^3.2.2",
+        "autoprefixer": "^10.2.5",
+        "postcss": "^8.2.14",
+        "prettier": "^2.2.1",
+        "tailwindcss": "^2.1.2"
+    }
 }
